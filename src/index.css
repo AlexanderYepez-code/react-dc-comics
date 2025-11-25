@@ -29,3 +29,20 @@ ul{
 .gap{
     gap: 50px;
 }
+.gap-10{
+    gap: 10px;
+}
+.bg-dark{
+    background-color: black;
+    min-height: 100px;
+}
+.bg-blue{
+    background-color: #0c7cec;
+}
+.text-white{
+    color: white;
+}
+/* DEBUG */
+.h{
+    min-height: 100px;
+}

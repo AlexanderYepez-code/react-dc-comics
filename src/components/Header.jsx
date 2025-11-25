@@ -4,7 +4,7 @@ export default function Header() {
     return (
         <header>
             <div className="d-flex jc-between aling-items-center container">
-                <img src="/img/dc-logo-2.png" alt="" />
+                <img src={logo} alt="" />
                 <div>
                     <ul className="d-flex gap">
                         <li><a href="">CHARACTER</a></li>

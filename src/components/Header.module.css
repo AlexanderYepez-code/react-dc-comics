@@ -1,6 +1,6 @@
 header{
     
-    min-height: 500px;
+    min-height: 110px;
     color: black;
 }
 a{
@@ -9,6 +9,8 @@ a{
 img{
     width: 100px;
     height: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 .active{
     color:#0c7cec ;
