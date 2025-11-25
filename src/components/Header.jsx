@@ -3,7 +3,7 @@ import logo from "../assets/img/dc-logo.png"
 export default function Header() {
     return (
         <header>
-            <div className="d-flex jc-between aling-items-center container">
+            <div className="d-flex jc-between aling-items-center container h">
                 <img src={logo} alt="" />
                 <div>
                     <ul className="d-flex gap">

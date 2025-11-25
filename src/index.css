@@ -45,6 +45,10 @@ ul{
 .position{
     width: 34px;
 }
+.p{
+    padding: 30px;
+}
+
 /* DEBUG */
 .h{
     min-height: 100px;

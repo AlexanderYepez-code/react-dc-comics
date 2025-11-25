@@ -1,0 +1,22 @@
+.backimage{
+    background-image: url(../assets/img/footer-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* .backimg-logo{
+    background-image: url(../assets/img/dc-logo-bg.png);
+    width: 100%;
+} */
+.list{
+    font-size: 0.5 rem;
+}
+footer h4{
+    color: white;
+}
+footer a{
+    color:grey;
+    font-size: 0.8rem;
+}
+.bgLightgrey{
+    background-color: #202020;
+}
