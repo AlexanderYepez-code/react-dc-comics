@@ -2,8 +2,30 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: Open Sans ;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+    
+}
+ul{
+    list-style: none;
 }
 .container{
     margin: 0 auto;
-    width: 80%;
+    width: 90%;
+}
+.d-flex{
+    display: flex;
+}
+.jc-between{
+    justify-content: space-between;
+}
+.aling-items-center{
+    align-items: center;
+}
+.gap{
+    gap: 50px;
 }

@@ -1,0 +1,16 @@
+header{
+    
+    min-height: 500px;
+    color: black;
+}
+a{
+    font-weight: bold;
+}
+img{
+    width: 100px;
+    height: auto;
+}
+.active{
+    color:#0c7cec ;
+    border-bottom: 10px solid #0c7cec;
+}
