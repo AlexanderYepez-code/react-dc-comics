@@ -1,5 +1,10 @@
 import style from "./Main.module.css"
 import Comic from "./DigitalComincs"
+import MerchandiseImg from "./Merchandise"
+import Subscriptions from "./Suscriptio"
+import Locator from "./Locator"
+import VisaPower from "./PowerVisa"
+
 export default function Main() {
     return (
         <main>
@@ -9,26 +14,26 @@ export default function Main() {
                 </div>
             </div>
             <div className="bg-blue h ">
-                <ul className="d-flex container gap-10">
+                <ul className="d-flex container jc-between aling-items-center h">
                     <li className="d-flex aling-items-center gap-10 text-white">
                         <Comic/>
                         <p>DIGITAL COMINCS</p>
 
                     </li>
                     <li className="d-flex aling-items-center gap-10 text-white">
-                        <Comic/>
+                        <MerchandiseImg/>
                         <p>DIGITAL COMINCS</p>
 
                     </li><li className="d-flex aling-items-center gap-10 text-white">
-                        <Comic/>
+                        <Subscriptions/>
                         <p>DIGITAL COMINCS</p>
 
                     </li><li className="d-flex aling-items-center gap-10 text-white">
-                        <Comic/>
+                        <Locator/>
                         <p>DIGITAL COMINCS</p>
 
                     </li><li className="d-flex aling-items-center gap-10 text-white">
-                        <Comic/>
+                        <VisaPower/>
                         <p>DIGITAL COMINCS</p>
 
                     </li>

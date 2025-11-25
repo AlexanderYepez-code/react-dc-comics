@@ -42,6 +42,9 @@ ul{
 .text-white{
     color: white;
 }
+.position{
+    width: 34px;
+}
 /* DEBUG */
 .h{
     min-height: 100px;
