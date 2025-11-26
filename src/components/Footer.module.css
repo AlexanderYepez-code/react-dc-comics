@@ -1,7 +1,7 @@
 .backimage{
     background-image: url(../assets/img/dc-logo-bg.png), url(../assets/img/footer-bg.jpg);
     background-repeat: no-repeat, no-repeat;
-    background-size: 40%, cover;
+    background-size: 30%, cover;
     background-position: center right, center;
 }
 
