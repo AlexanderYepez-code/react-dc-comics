@@ -1,8 +1,10 @@
 .backimage{
-    background-image: url(../assets/img/footer-bg.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: url(../assets/img/dc-logo-bg.png), url(../assets/img/footer-bg.jpg);
+    background-repeat: no-repeat, no-repeat;
+    background-size: 40%, cover;
+    background-position: center right, center;
 }
+
 /* .backimg-logo{
     background-image: url(../assets/img/dc-logo-bg.png);
     width: 100%;

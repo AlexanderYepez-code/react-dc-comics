@@ -48,6 +48,26 @@ ul{
 .p{
     padding: 30px;
 }
+.titolo{
+    margin-top: 10px;
+    text-align: center;
+}
+.col{
+  width: calc((100% - 100px) / 7);
+  height: 320px;
+  text-transform: uppercase;
+  border: 2px solid white ;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  height: 375px;
+  
+}
+.wrap{
+    flex-wrap: wrap;
+}
+.list-comics{
+    padding: 50px 0;
+}
 
 /* DEBUG */
 .h{
