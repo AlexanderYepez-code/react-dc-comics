@@ -4,34 +4,26 @@ import MerchandiseImg from "./Merchandise"
 import Subscriptions from "./Suscriptio"
 import Locator from "./Locator"
 import VisaPower from "./PowerVisa"
-import Comics from "../assets/comics"
+import comics from "../assets/comics"
+import ComicsList from "./ComicsList"
+import ComicsCard from "./ComicsCard"
 
 export default function Main() {
     return (
         <main>
-            
+
             <div className={style.banner}>
                 <h3>Current Series</h3>
             </div>
             <div className="bg-dark list-comics">
                 <div className="container text-white d-flex aling-items-center wrap gap jc-between">
-                    {Comics.map((curComics) => {
-                        return (
-                            <div className="col " key = {curComics.id}>
-                                <img className={style.comicimg} src={curComics.thumb} alt="" />
-                                <h4 className="titolo">{curComics.series}</h4>
-                                <p className={style.prezzo}>{curComics.price}</p>
+                    <ComicsList />
 
-                            </div>
-                        )
-
-                    })}
-                 
 
                 </div>
             </div>
             <div className="bg-blue h ">
-                <ul className="d-flex container jc-between aling-items-center h">
+                <ul className="d-flex container jc-between aling-items-center ">
                     <li className="d-flex aling-items-center gap-10 text-white">
                         <Comic />
                         <p>DIGITAL COMINCS</p>
